@@ -14,3 +14,13 @@ public:
     friend class siswa; // siswa boleh akses private orang
 };
 
+class siswa
+{
+private:
+    int id;
+
+public:
+    void setId(int pId);
+    void displayAll(orang &a); // diperbaiki (nama harus sama)
+};
+
