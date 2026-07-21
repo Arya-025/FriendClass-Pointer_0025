@@ -36,3 +36,9 @@ void siswa::setId(int pId)
     id = pId;
 }
 
+void siswa::displayAll(orang &a)
+{
+    cout << "ID: " << id << endl;
+    cout << "Nama: " << a.nama << endl; // akses private karena friend
+}
+
