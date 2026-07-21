@@ -24,3 +24,10 @@ public:
     void displayAll(orang &a); // diperbaiki (nama harus sama)
 };
 
+// IMPLEMENTASI
+
+void orang::setNama(string pNama)
+{
+    nama = pNama;
+}
+
