@@ -42,3 +42,16 @@ void siswa::displayAll(orang &a)
     cout << "Nama: " << a.nama << endl; // akses private karena friend
 }
 
+// MAIN
+int main()
+{
+    orang joko;
+    joko.setNama("Joko Susilo");
+
+    siswa joko_siswa;
+    joko_siswa.setId(1);
+
+    joko_siswa.displayAll(joko);
+
+    return 0;
+}
